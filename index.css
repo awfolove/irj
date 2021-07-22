@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Jua&family=Noto+Sans+KR:wght@300&display=swap');
+
+ul {padding-inline-start: 0px;}
+
+/*
+font {font-family: 'Gaegu', cursive;
+    font-family: 'Jua', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;}
+*/
+
+html { background: url(image/background.jpg); background-attachment: fixed; }
+body { text-align: center; background-color: rgb(230,210,250,0.8); margin: 3vw;
+}
+
+.title { font-family: 'Jua', sans-serif; 
+    font-size: 3em; color: rebeccapurple; padding-top: 20px; margin-bottom: 10px;}
+
+.description { font-family: 'Gaegu', cursive; font-size: 1.1em; margin-top: 10px; margin-bottom: 10px;}
+
+.ok-link { background: white;  display: inline-block; padding: 7px; border-radius: 5px; font-family: 'Jua', sans-serif; margin-top: 10px; margin-bottom: 10px; font-size: 2em;}
+.tw-link { background: white;  display: inline-block; padding: 7px; border-radius: 5px; font-family: 'Jua', sans-serif; margin-top: 10px; margin-bottom: 10px; font-size: 2em;}
+
+.menu-1 { font-family: 'Jua', sans-serif; 
+    color: rebeccapurple; margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;}
+
+.sub { font-family: 'Jua', sans-serif; 
+    color: rebeccapurple; margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;} 
+
+img { display: inline-block; max-width: 90vw; width: 500px; }
+
+
+
+
+
+
+
+
+
+
