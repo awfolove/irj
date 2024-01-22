@@ -8,23 +8,79 @@ font {font-family: 'Gaegu', cursive;
     font-family: 'Noto Sans KR', sans-serif;}
 */
 
-html { background: url(image/background.jpg); background-attachment: fixed; }
-body { text-align: center; background-color: rgb(230,210,250,0.8); margin: 3vw;
+@font-face {
+    font-family: "DungGeunMo";
+    src:url("font/DungGeunMo.eot");
+  }
+
+
+
+
+
+html { margin:0; font-family: "DungGeunMo", sans-serif;}
+body { text-align: center; background-color: rgba(255, 255, 255, 0.8); margin: 3vw;
+    
 }
 
-.title { font-family: 'Jua', sans-serif; 
-    font-size: 3em; color: rebeccapurple; padding-top: 20px; margin-bottom: 10px;}
+.title {
+    font-size: 3em;  padding-top: 5%; margin-bottom: 30px; text-align: left; padding-left: 25%;}
 
-.description { font-family: 'Gaegu', cursive; font-size: 1.1em; margin-top: 10px; margin-bottom: 10px;}
+.description { font-size: 1.1em; margin-top: 10px; margin-bottom: 10px;}
 
-.ok-link { background: white;  display: inline-block; padding: 7px; border-radius: 5px; font-family: 'Jua', sans-serif; margin-top: 10px; margin-bottom: 10px; font-size: 2em;}
-.tw-link { background: white;  display: inline-block; padding: 7px; border-radius: 5px; font-family: 'Jua', sans-serif; margin-top: 10px; margin-bottom: 10px; font-size: 2em;}
 
-.menu-1 { font-family: 'Jua', sans-serif; 
-    color: rebeccapurple; margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;}
+.box {
+    display: flex; align-items: center;
+    justify-content: center;
+}
 
-.sub { font-family: 'Jua', sans-serif; 
-    color: rebeccapurple; margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;} 
+.main-box {
+    background-image: url("image/box.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:60dvw;
+    height: 60dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 80%;
+    width: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.main::-webkit-scrollbar {
+    width: 5px;
+  }
+.main::-webkit-scrollbar-thumb {
+    background-color: none;
+  }
+.main::-webkit-scrollbar-track {
+    background-color: none;
+  }
+
+.right-box {
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.ok-link { display: inline-block; padding: 7px; border-radius: 5px;  margin-top: 10px; margin-bottom: 10px; 
+    width: 80px;
+
+
+}
+.tw-link { display: inline-block; padding: 7px; border-radius: 5px;  margin-top: 10px; margin-bottom: 10px;
+    width: 80px;
+}
+
+.menu-1 { 
+    margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;}
+
+.sub { 
+    margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;} 
 
 img { display: inline-block; max-width: 90vw; width: 500px; }
 

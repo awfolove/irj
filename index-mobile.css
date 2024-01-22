@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Jua&family=Noto+Sans+KR:wght@300&display=swap');
+
+ul {padding-inline-start: 0px;}
+
+/*
+font {font-family: 'Gaegu', cursive;
+    font-family: 'Jua', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;}
+*/
+
+@font-face {
+    font-family: "DungGeunMo";
+    src:url("font/DungGeunMo.eot");
+  }
+
+
+
+
+
+html { margin:0; font-family: "DungGeunMo", sans-serif;}
+body { text-align: center; margin: 3vw;
+    
+}
+
+.title {
+    font-size: 3em;  padding-top: 5%; margin-bottom: 30px;}
+
+.description { font-size: 1.1em; margin-top: 10px; margin-bottom: 10px;}
+
+
+
+.right-box {
+    position: fixed;
+    top: 90%;
+    right: 20px; /* 조절 가능한 오른쪽 여백 */
+    transform: translateY(-50%);
+    z-index: 1000;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 팝업 이미지 스타일 */
+
+.link-button {
+    width: 50px;
+    height: 50px; /* 조절 가능한 이미지 너비 */
+    margin-bottom: 15px; /* 조절 가능한 이미지 간격 */
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 1px 1px 3px 3px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ok-link,
+.tw-link {
+    width: 70%;
+}
+
+.tw-link {padding-top: 5px;}
+
+
+.menu-1 { 
+    margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;}
+
+.sub { 
+    margin-top: 10px; margin-bottom: 10px; font-size: 1.5em;} 
+
+img { display: inline-block; max-width: 90vw; width: 500px; }
+
+
+
+
+
+
+
+
+
+
